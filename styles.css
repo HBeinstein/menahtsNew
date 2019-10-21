@@ -1,0 +1,213 @@
+.cloud-bg img{
+  width: 1200px;
+  height: auto;
+  z-index: -10;
+}
+
+/* caption */
+.menohts img{
+    top: 524px;
+    left: 453px;
+    position: absolute;
+    width: 272px;
+    z-index: 25;
+}
+
+/* table */
+.table img:nth-child(1){
+  width: 600px;
+  height: auto;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  z-index: 10;
+  /* animation: table-float .5s ease-in-out infinite alternate; */
+
+}
+/* @keyframes table-float {
+  100% {
+    transform: translate(1px);
+} */
+
+
+/* bird */
+.table img:nth-child(2) {
+    top: 251px;
+    left: 303px;
+    position: absolute;
+    width: 154px;
+    padding: 0px 20px 40px 100px;
+    z-index: 50;
+}
+
+/* fly */
+.table img:nth-child(3){
+  top: 238px;
+  left: 578px;
+  position: absolute;
+  width: 156px;
+  z-index: 20;
+}
+
+/* dude */
+.table img:nth-child(4) {
+    top: 176px;
+    left: 469px;
+    position: absolute;
+    width: 78px;
+    z-index: 41;
+}
+
+/* glasses */
+.table img:nth-child(5) {
+    top: 150px;
+    left: 463px;
+    position: absolute;
+    width: 20px;
+    padding: 40px;
+    z-index: 250;
+}
+
+.table img:nth-child(5):hover {
+  animation: grow .3s linear infinite alternate;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.6);
+  }
+}
+
+
+/* goblet */
+.table img:nth-child(6) {
+    top: 286px;
+    left: 526px;
+    position: absolute;
+    width: 48px;
+    z-index: 41;
+}
+
+.table img:nth-child(2):hover ~ .goblet {
+  animation: pulse .1s linear infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+/* pitcher */
+.table img:nth-child(7) {
+    top: 194px;
+    left: 686px;
+    position: absolute;
+    width: 45px;
+    z-index: 41;
+}
+
+/* flowers */
+.table img:nth-child(8) {
+    top: 168px;
+    left: 549px;
+    position: absolute;
+    width: 104px;
+    z-index: 10;
+}
+
+/* teacup */
+.table img:nth-child(9) {
+    top: 272px;
+    left: 574px;
+    position: absolute;
+    width: 25px;
+    z-index: 10;
+}
+/* tophat */
+.table img:nth-child(10) {
+    top: 204px;
+    left: 587px;
+    position: absolute;
+    width: 34px;
+    z-index: 500;
+    padding: 30px 90px 120px 30px;
+}
+
+.table img:nth-child(10):hover {
+  animation: jump .15s ease-in-out infinite alternate;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translateY(3px);
+  }
+}
+
+/* light beam */
+.table img:nth-child(11) {
+    top: 8px;
+    left: 365px;
+    position: absolute;
+    width: 213px;
+    z-index: 5;
+    opacity: 0;
+}
+
+/* cloud*/
+.table img:nth-child(12) {
+    top: 61px;
+    left: 205px;
+    position: absolute;
+    width: 243px;
+    z-index: 400;
+    opacity: 0;
+}
+/* rainbow*/
+.table img:nth-child(13) {
+    top: 98px;
+    left: 705px;
+    position: absolute;
+    width: 143px;
+    z-index: 0;
+    opacity: 0;
+}
+
+/* ------------tags------------------- */
+.tags img:nth-child(1) {
+  top: 135px;
+  left: 493px;
+  position: absolute;
+  width: 72px;
+  padding: 40px;
+  opacity: 0;
+  z-index: 40;
+}
+
+.tags img:nth-child(2) {
+    top: 383px;
+    left: 465px;
+    position: absolute;
+    width: 72px;
+    padding: 0;
+    opacity: 0;
+    z-index: 25;
+}
+.tags img:nth-child(3) {
+    top: 242px;
+    left: 661px;
+    position: absolute;
+    width: 72px;
+    padding: 40px;
+    opacity: 0;
+    z-index: 200;
+}
