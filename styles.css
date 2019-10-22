@@ -1,15 +1,15 @@
 .cloud-bg img{
-  width: 1200px;
+  width: 1230px;
   height: auto;
   z-index: -10;
 }
 
 /* caption */
-.menohts img{
-    top: 524px;
-    left: 453px;
+.menohts img {
+    top: 505px;
+    left: 481px;
     position: absolute;
-    width: 272px;
+    width: 242px;
     z-index: 25;
 }
 
@@ -61,15 +61,15 @@
 /* glasses */
 .table img:nth-child(5) {
     top: 150px;
-    left: 463px;
+    left: 462px;
     position: absolute;
-    width: 20px;
+    width: 22px;
     padding: 40px;
     z-index: 250;
 }
 
 .table img:nth-child(5):hover {
-  animation: grow .3s linear infinite alternate;
+  animation: grow .2s linear infinite alternate;
 }
 
 @keyframes grow {
@@ -77,7 +77,7 @@
     transform: scale(1);
   }
   to {
-    transform: scale(1.6);
+    transform: scale(1.4);
   }
 }
 
@@ -141,7 +141,7 @@
 }
 
 .table img:nth-child(10):hover {
-  animation: jump .15s ease-in-out infinite alternate;
+  animation: jump .12s ease-in-out infinite alternate;
 }
 
 @keyframes jump {
@@ -165,20 +165,19 @@
 
 /* cloud*/
 .table img:nth-child(12) {
-    top: 61px;
-    left: 205px;
+    top: 91px;
+    left: 215px;
     position: absolute;
-    width: 243px;
+    width: 254px;
     z-index: 400;
     opacity: 0;
 }
 /* rainbow*/
 .table img:nth-child(13) {
-    top: 98px;
-    left: 705px;
+    top: 8px;
+    left: 312px;
     position: absolute;
-    width: 143px;
-    z-index: 0;
+    width: 539px;
     opacity: 0;
 }
 
