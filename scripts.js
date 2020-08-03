@@ -8,6 +8,10 @@ const beam = imgs[11];
 const cloud = imgs[12];
 const rainbow = imgs[13];
 
+function handleClick(){
+  return window.location.href = "songone.html";
+}
+
 function showBagleyBeam(){
   //bagley-tag
   bagley.style.opacity = "1";
