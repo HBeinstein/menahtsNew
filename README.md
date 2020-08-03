@@ -13,7 +13,7 @@ __Currently designing and developing a branded visual accompaniment to Portland 
 * Clone the project from its GitHub repository (https://github.com/HBeinstein/menahtsNew).
 * Open in your code editor of choice.
 * Drag index.html file into your browser or double click it to view site.
-* View this site live on ghpages at: https://hbeinstein.github.io/menahtsNew/.
+* View the homepage live on ghpages at: https://hbeinstein.github.io/menahtsNew/ and the webpage for song one at: https://hbeinstein.github.io/menahtsNew/songone.html or by clicking the "diego" link on the homepage.
 
 ## Known Bugs
 
