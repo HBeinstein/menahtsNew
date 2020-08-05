@@ -32,6 +32,4 @@ hannah.beinstein@gmail.com
 
 ### License
 
-Licensed for usage under the MIT license.
-
 Copyright (c) 2020 **_Hannah Beinstein_**
